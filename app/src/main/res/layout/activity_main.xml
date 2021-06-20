@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ruchitha:layout_height="match_parent"
+    ruchitha:layout_width="match_parent"
+    xmlns:ruchitha="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    ruchitha:orientation="vertical"
+    ruchitha:weightSum="10"
+    tools:context=".MainActivity">
+
+
+    <Button
+        ruchitha:layout_width="match_parent"
+        ruchitha:layout_height="0dp"
+        ruchitha:layout_weight="1"
+        ruchitha:text="Toast"
+        ruchitha:background="#0D30F3"
+        ruchitha:textColor="#F6F3F3"
+        ruchitha:onClick="showToastMessage"
+        />
+    <TextView
+        ruchitha:layout_width="match_parent"
+        ruchitha:layout_height="0dp"
+        ruchitha:layout_weight="8"
+        ruchitha:id="@+id/mytextview"
+        ruchitha:textSize="100sp"
+        ruchitha:background="#FFEB3B"
+        ruchitha:gravity="center"
+        ruchitha:text="0"/>
+    <Button
+        ruchitha:background="#2196F3"
+        ruchitha:layout_width="match_parent"
+        ruchitha:layout_height="0dp"
+        ruchitha:layout_weight="1"
+        ruchitha:textColor="#FFF"
+        ruchitha:text="Count"
+        ruchitha:onClick="increaseCount"
+        />
+
+</LinearLayout>
